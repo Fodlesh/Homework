@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iPhone 13</title>
+    <link rel="stylesheet" href="style/normalize.css">
+    <link rel="stylesheet" href="style/fonts.css">
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__container">
+                <img src="images/apple.svg" alt="Логотип Apple" class="header__logo">
+                <nav class="header__navigation navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__item"><a href="#">Оформить предзаказ</a></li>
+                        <li class="navigation__item"><a href="#">Доставка</a></li>
+                        <li class="navigation__item"><a href="#">Официальный сайт</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+<main class="main">
+    <section class="main__section offer">
+        <div class="container">
+            <div class="offer__container">
+                <h1 class="offer">
+                    iPhone 13
+                </h1>
+                <h2 class="offer--title">
+                    Ближе, чем можно представить
+                </h2>
+                <p class="offer__price">
+                    от 79 000 руб.
+                </p>
+                <button class="offer__btn btn">
+                    Оформить предзаказ
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="main__section features">
+    <div class="container">
+        <h2 class="features__title">
+            iPhone 13. Ничего лишнего
+        </h2>
+        <ul class="fatures__list">
+            <li class="features__item">
+                <img src="images/camera.jpg" alt="Новый модуль камер" class="card__picture">
+                <h3 class="card__title">
+                    Камера
+                </h3>
+                <p class="card__description">
+                    Система камер PRO.
+                </p>
+            </li>
+            <li class="features__item">
+                <img src="images/compect.jpg" alt="Комплектация" class="card__equipment">
+                <h3>
+                    Комплектация
+                </h3>
+                <p>
+                    Зарядное устройство.<br>
+                    Беспроводные наушники.
+                </p>
+            </li>
+            <li class="features__item">
+                <img src="images/color.jpg" alt="Цвет" class="card__color">
+                <h3>
+                    Цвет
+                </h3>
+                <p>
+                    Глубоководный синий.<br>
+                    Графитовый.
+                </p>
+            </li>
+            <li class="features__item">
+                <img src="images/frame.jpg" alt="Корпус" class="card__frame">
+                <h3>
+                    Корпус
+                </h3>
+                <p>
+                    Водонипроницаемый и противоударный корпус.
+                </p>
+            </li>
+            <li class="features__item">
+                <img src="images/line.jpg" alt="линейка" class="card__line">
+                <h3> 
+                    Линейка
+                </h3>
+                <p>
+                    iPhone 13, iPhone 13 mini,<br>
+                    iPhone 13 Pro и 13 Pro Max.
+                </p>
+            </li>
+            <li class="features__item">
+                <img src="images/charger_magnetic.jpg" alt="Зарядка" class="card__changer">
+                <h3>
+                    Зарядка
+                </h3>
+                <p>
+                    Аккумулятор-магнит.
+                </p>
+            </li>      
+        </ul>
+    </div>
+    </section>
+
+    <section class="main__section order">
+        <div class="container">
+            <h2 class="order__title">
+                Оформить предзаказ
+            </h2>
+            <form action="#" class="order__form form">
+                <fieldset class="form__box">
+                    <legend class="form__title-box">
+                        Персоональные данные
+                    </legend>
+                    <label for="fullName" class="form__label">
+                        ФИО
+                    </label>
+                        <input type="text" class="form__input" id="fullName">
+                    <label for="phone" class="form__label">
+                        Телефон
+                    </label>
+                        <input type="text" class="form__input" id="phone">
+                    <label for="email" class="form__label">
+                        E-mail
+                    </label>
+                        <input type="text" class="form__input" id="email">
+                </fieldset>
+                <fieldset class="form__box">
+                    <legend class="form__title-box">
+                        Адрес доставки</legend>
+                    <label for="city" class="form__label">
+                        Город
+                    </label>
+                        <input type="text" class="form__input" id="city">
+                    <label for="index" class="form__label">
+                        Индекс
+                    </label>
+                        <input type="text" class="form__input" id="index">
+                    <label for="addres" class="form__label">
+                        Адрес
+                    </label>
+                        <input type="text" class="form__input" id="addres">
+                </fieldset>
+
+                <fieldset class="form__box">
+                    <legend class="form__title-box">
+                        Выбор модели
+                    </legend>
+                    <label for="model" class="form__label">
+                        Модель
+                    </label>
+                    <select name="model" id="model" class="form__select">
+                        <option value="iPhone13">
+                            iPhone13
+                        </option>
+                        <option value="iPhone13mini">
+                            iPhone13mini
+                        </option>
+                        <option value="iPhone13Pro">
+                            iPhone13Pro
+                        </option>
+                        <option value="iPhone13ProMax">
+                            iPhone13ProMax
+                        </option>
+                    </select>
+                    <label for="color" class="form__label">
+                        Цвет
+                    </label>
+                    <select name="color" id="color" class="form__select">
+                        <option value="Pearl">
+                            Pearl
+                        </option>
+                        <option value="Graphite">ss
+                            Graphite
+                        </option>
+                        <option value="Sunset Gold">
+                            Sunset Gold
+                        </option>
+                        <option value="Pink">
+                            Pink
+                        </option>
+                        <option value="Violet">
+                            Violet
+                        </option>
+                        <option value="Product Red">
+                            Rose Gold
+                        </option>
+                        <option value="Rose Gold">
+                            Rose Gold
+                        </option>
+                        <option value="Rose Gold">
+                            Rose Gold
+                        </option>
+                        <option value="Rose Gold">
+                            Rose Gold
+                        </option>
+                        <option value="Rose Gold">
+                            Rose Gold
+                        </option>
+                        <option value="Rose Gold">
+                            Rose Gold
+                        </option>
+                    </select>
+                </fieldset>
+                <fieldset class="form__box">
+                    <legend class="form__title-box">
+                        Аксессуары
+                    </legend>
+                    <label class="from__label checkbox">
+                        <input type="checkbox" name="accessories" id="case">
+                        Чехол
+                    </label>
+                    <label class="from__label checkbox">
+                        <input type="checkbox" name="accessories" id="AirPods">
+                        Наушники AirPods 3
+                    </label>
+                    <label class="from__label checkbox">
+                        <input type="checkbox" name="accessories" id="glass">
+                        Защитное стекло
+                    </label>
+                    <label class="from__label checkbox">
+                        <input type="checkbox" name="accessories" id="MagSafe">
+                        Зарядное устройство MagSave
+                    </label>
+                </fieldset>
+                <button type="submit" class="form__submit btn">
+                    Оформить
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer >
+        <p>
+            © iPhone 13 Promo, 2021
+        </p>
+        <p class="styling">
+            Design by Anastasia Ilina
+        </p>
+        <p >
+            ilina9825@gmail.com
+        </p>
+    </footer>
+</main>
+</body>
+</html>
